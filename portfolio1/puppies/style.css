@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Red+Hat+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+nav ul{
+	list-style-type: none;
+    text-align: center;
+    background-color: #A9B0FF;
+    padding: 5px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 75px;
+}
+
+nav a:visited {
+	color:#5F30F5;
+}
+
+nav a:hover  {
+	color:black;
+}
+
+nav a:active  {
+	color:blue;
+}
+
+main{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.home-hero{
+
+	background-image:url(img/header.jpg);
+	height: 400px;
+	background-size:cover;
+	background-position: center;
+	color: white;
+	padding: 10px 10px 10px 30px; 
+	text-shadow: 4px 3px 0 BLACK;
+}
+
+img{
+    margin:0 auto;
+    display:block;
+}
+
+blockquote{
+	margin:40px;
+	text-align: center;
+}
+
+.col-sm-4 h3{
+    text-align:center;
+}
+
+h1{
+	font-size: 55px;
+    color: #855BF0;
+    text-align:center; 
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+    font-weight:bold;
+    font-family: 'Azeret Mono', monospace;
+    text-align: center;   
+}
+
+h3{
+	margin-top:1px;
+	margin-bottom:20px;
+	font-weight:bold;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;    
+}
+
+footer{
+	color:rebeccapurple;
+	background-color: #022837;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	display:block;
+}
+
+footer a:link{
+    color:white;
+}
+
+.icons .fa{
+	font-size: 5em;
+    color: mediumpurple;
+	
+}
+.icons{
+	text-align:center;
+	padding: 40px 0 ;
+    color: mediumpurple;
+    max-width:1200px;
+    margin:0 auto; 
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+	img{display:block;margin:0 auto}
+
+}
+
